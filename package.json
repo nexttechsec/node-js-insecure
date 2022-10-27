@@ -1,7 +1,7 @@
 {
   "name": "node-js-insecure",
   "version": "1.0.0",
-  "description": "Node js project with vulnerabilities",
+  "description": "Node js project with vulnerabilities, part2",
   "main": "index.js",
   "scripts": {
     "start": "node main.js",
