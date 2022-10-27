@@ -17,7 +17,7 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
       - name: 'Custom action'
-        uses: actions/hello-world-javascript-action@v1.1
+        uses: actions/java-mvn-dependency-submission@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
       - name: 'Dependency Review'
