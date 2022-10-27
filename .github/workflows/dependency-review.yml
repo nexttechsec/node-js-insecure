@@ -17,7 +17,7 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
       - name: 'Custom action'
-        uses: nexttechsec/java-mvn-dependency-submission
+        uses: nexttechsec/java-mvn-dependency-submission@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
       - name: 'Dependency Review'
