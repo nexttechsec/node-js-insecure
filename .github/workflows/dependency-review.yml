@@ -17,8 +17,10 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
       - name: 'Custom action'
-        uses: actions/hello-world-javascript-action@v1.1
+        uses: nexttechsec/java-mvn-dependency-submission@v2.1
         with:
-          who-to-greet: 'Mona the Octocat'
+          language: 'javascript'
+          dependency-management: 'npm'
+          manifest-files: 'package.json'
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v2
