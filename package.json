@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/nexttechsec/node-js-insecure#readme",
   "dependencies": {
-
+    "escape-html": "^1.0.3",
+    "serve-static": "^1.12.4",
+    "uuid": "^3.1.0"
   }
 }
