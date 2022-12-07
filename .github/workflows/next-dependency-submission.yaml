@@ -39,7 +39,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: 'Generic Dependency Submission'
-        uses: nexttechsec/generic-dependency-submission@v2.2.2
+        uses: nexttechsec/generic-dependency-submission@v2.2.3
         with:
           language: 'javascript'
           dependency-management: 'npm'
